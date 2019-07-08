@@ -1,0 +1,6 @@
+@echo off
+echo Switching proxy...
+powershell -NoProfile -ExecutionPolicy Unrestricted .\Switch-Proxy.ps1
+echo Press any key to continue...
+pause > nul
+exit
